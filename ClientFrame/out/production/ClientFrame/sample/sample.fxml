@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutY="97.0" prefHeight="303.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <TextField fx:id="login_field" layoutX="202.0" layoutY="85.0" prefHeight="27.0" prefWidth="302.0" promptText="Логин" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="password_field" layoutX="204.0" layoutY="138.0" prefHeight="27.0" prefWidth="302.0" promptText="Пароль" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="242.0" layoutY="14.0" text="Авторизация" textFill="#8a8a8a">
+               <font>
+                  <Font name="Lobster" size="37.0" />
+               </font>
+            </Label>
+            <Button fx:id="authSigInButton" layoutX="290.0" layoutY="201.0" mnemonicParsing="false" prefHeight="14.0" prefWidth="120.0" style="-fx-background-color: #2E3348 #2E3348;" text="Войти" textFill="WHITE">
+               <font>
+                  <Font name="Lobster" size="28.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="261.0" layoutY="14.0" text="Чат" textFill="WHITE">
+         <font>
+            <Font name="Lobster" size="56.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginSignUpButton" layoutX="531.0" layoutY="14.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="155.0" style="-fx-background-color: #F39C63#F39C63;" text="Зарегистрироваться" textFill="WHITE">
+         <font>
+            <Font name="Lobster" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
